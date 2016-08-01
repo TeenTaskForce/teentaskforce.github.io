@@ -33,7 +33,15 @@
 </head>
 
 <body id="page-top">
-
+	<style type="text/css">
+		.navbutton{
+			-webkit-transition: background-color 0.5s ease-out;
+            -moz-transition: background-color 0.5s ease-out;
+            -o-transition: background-color 0.5s ease-out;
+            transition: background-color 0.5s ease-out;
+            background-color: green
+		}
+	</style>
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -47,17 +55,23 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a class="page-scroll" href="#about">About</a>
+                    <li class="">
+                        <a class="navbutton" href="#services"><span style="color:white">Services</span></a>
                     </li>
                     <li class="">
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="navbutton" href="#portfolio"><span style="color:white">Blog</span></a>
                     </li>
                     <li class="">
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="navbutton" href="#contact"><span style="color:white">Contact Us</a>
                     </li>
                     <li class="">
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="navbutton" href="#services"><span style="color:white">About Us</span></a>
+                    </li>
+                    <li class="">
+                        <a class="navbutton" href="#services"><span style="color:white">Log in</span></a>
+                    </li>
+                    <li class="">
+                        <a class="navbutton" href="#services"><span style="color:white">Sign Up</span></a>
                     </li>
                 </ul>
             </div>
