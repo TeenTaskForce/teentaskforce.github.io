@@ -32,24 +32,18 @@
 
 </head>
 
-<body id="page-top" style="background-color:grey">
+<body id="page-top" style="background-image:url('https://www.teamunify.com/canso/_images/cust_bg_5775_1398123740610.jpg')">
 	<style type="text/css">
-		.navbutton{
-			-webkit-transition: background-color 0.5s ease-out;
-            -moz-transition: background-color 0.5s ease-out;
-            -o-transition: background-color 0.5s ease-out;
-            transition: background-color 0.5s ease-out;
-            background-color: green
-		}
+		
 	</style>
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top" style="background-color:black">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="index.html"><img src="logo.png" style="margin-top:-15px;margin-left:-15px"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,28 +70,85 @@
         </div>
         <!-- /.container-fluid -->
     </nav><br><br>
-    <form style="font-size: 150%;margin-top:30px"><b>
-        Username:
-        <input type="text" id="username"><br><br>
-        Password:
-        <input type="text" id="password" style="margin-left:5px"><br><br>
-        Email:
-        <input type="text" id="email" style="margin-left:45px">
-        </b>
-    </form>
+    <div class="form">
+      
+      
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h1>Sign Up for Free</h1>
+          
+          <form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required="" autocomplete="off">
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text" required="" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email" required="" autocomplete="off">
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password" required="" autocomplete="off">
+          </div>
+          
+          <button type="submit" class="button button-block">Get Started</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="login">   
+          <h1>Welcome Back!</h1>
+          
+          <form action="/" method="post">
+          
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email" required="" autocomplete="off">
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password" required="" autocomplete="off">
+          </div>
+          
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          
+          <button class="button button-block">Log In</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
     <header>
         
     </header>
-
-    
-    
-    
-
-    
-
-    
-
-    
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -117,6 +168,3 @@
 
 
     
-
-
-</body></html>
