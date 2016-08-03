@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> Login </title>
+    <title> Sign Up </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,9 +33,9 @@
 </head>
 
 <body id="page-top" style="background-image:url('https://www.teamunify.com/canso/_images/cust_bg_5775_1398123740610.jpg')">
-  <style type="text/css">
-    
-  </style>
+	<style type="text/css">
+		
+	</style>
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top" style="background-color:black">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -72,35 +72,65 @@
     </nav><br><br>
     <div class="form">
       
-         <center>
-          <h1>Log In</h1>
+      
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h1>Sign Up for Free</h1>
           
           <form action="/" method="post">
           
+          <div class="top-row">
             <div class="field-wrap">
-            <label> 
-          <p> Email Address</p><span class="req"></span>
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required="" autocomplete="off">
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text" required="" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
             </label>
-            <input style = "margin-left: = -30px" type=email" required="" autocomplete="off">
+            <input type="email" required="" autocomplete="off">
           </div>
           
           <div class="field-wrap">
+              <label>
+                Date of Birth<span class="req">*</span>
+              </label>
+              <input type="text" required="" autocomplete="off">
+            </div>
+          </div>
+            <div class="field-wrap">
+              <label>
+                Paypal ID<span class="req">*</span>
+              </label>
+              <input type="text" required="" autocomplete="off">
+            </div>
+          </div>
+          <div class="field-wrap">
             <label>
-             
-              <p>Password</p><span class="req"></span>
+              Set A Password<span class="req">*</span>
             </label>
             <input type="password" required="" autocomplete="off">
           </div>
           
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
-          
-          <button class="button button-block">Log In</button>
+          <button type="submit" class="button button-block">Create Account</button>
           
           </form>
+        
+    </header>
 
-        </div>
-
-          <!-- jQuery -->
+    <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -113,3 +143,8 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+
+
+
+
+    
